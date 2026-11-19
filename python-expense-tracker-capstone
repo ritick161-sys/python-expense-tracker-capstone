@@ -1,0 +1,14 @@
+python-expense-tracker-capstone/
+├── app/
+│   ├── __init__.py
+│   ├── main.py          # FastAPI routes, static HTML dashboard & API endpoints
+│   ├── database.py      # SQLite connection manager, schema setup & CRUD queries
+│   ├── models.py        # Pydantic request/response schemas & validation
+│   └── logger.py        # Rotating file + console logging configuration
+├── static/
+│   └── index.html       # Clean responsive frontend UI (Add/Filter/Delete + Summary)
+├── tests/
+│   └── test_api.py      # Automated pytest suite
+├── requirements.txt
+├── .gitignore
+└── README.md            # Architecture diagram, DB schema, setup & demo video link
